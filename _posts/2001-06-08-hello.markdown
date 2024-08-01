@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Hello world!"
-date:   2001-06-08 21:22:24 +0200
-categories: jekyll update
+date: 2001-06-08T21:22:24.311Z
+tags: [my life]
+categories: []
 ---
 
 [the start of my life here](https://web.archive.org/web/20011001000000*/vivanno.com)

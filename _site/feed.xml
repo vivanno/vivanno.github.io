@@ -1,1 +1,164 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-01T11:12:46+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">🏪</title><subtitle>I&apos;m a dev.</subtitle><entry><title type="html">Hello world!</title><link href="http://localhost:4000/jekyll/update/2001/06/08/hello.html" rel="alternate" type="text/html" title="Hello world!" /><published>2001-06-08T21:22:24+02:00</published><updated>2001-06-08T21:22:24+02:00</updated><id>http://localhost:4000/jekyll/update/2001/06/08/hello</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2001/06/08/hello.html"><![CDATA[<p><a href="https://web.archive.org/web/20011001000000*/vivanno.com">the start of my life here</a></p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[the start of my life here]]></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-08-01T22:12:28+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">🚀</title><subtitle>I am a self-made developer, driven by an insatiable curiosity and a deep love for technology. </subtitle><entry><title type="html">Install Jekyll on Ubuntu</title><link href="http://localhost:4000/quick-start/2024/07/27/install-jekyll-on-ubuntu.html" rel="alternate" type="text/html" title="Install Jekyll on Ubuntu" /><published>2024-07-27T20:53:38+02:00</published><updated>2024-07-27T20:53:38+02:00</updated><id>http://localhost:4000/quick-start/2024/07/27/install-jekyll-on-ubuntu</id><content type="html" xml:base="http://localhost:4000/quick-start/2024/07/27/install-jekyll-on-ubuntu.html"><![CDATA[<h1 id="what-is-jekyll">What is Jekyll?</h1>
+<p>Jekyll is a static site generator that allows you to build and manage websites using plain text files and templates. It takes your content written in Markdown, Textile, or HTML, and generates a complete website that can be hosted on any web server. Jekyll is popular among developers for its simplicity, speed, and flexibility. It is often used for creating blogs, documentation sites, and personal websites.</p>
+
+<h1 id="install-ruby">Install Ruby</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt-get <span class="nb">install </span>ruby-full build-essential zlib1g-dev
+</code></pre></div></div>
+
+<h1 id="set-up-ruby-environment">Set up Ruby Environment</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'# Install Ruby Gems to ~/gems'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'export GEM_HOME="$HOME/gems"'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+<span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'export PATH="$HOME/gems/bin:$PATH"'</span> <span class="o">&gt;&gt;</span> ~/.bashrc
+</code></pre></div></div>
+<p>restart your terminal or run the following command:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">source</span> ~/.bashrc
+</code></pre></div></div>
+
+<h1 id="install-jekyll-and-bundler">Install Jekyll and Bundler</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>gem <span class="nb">install </span>jekyll bundler
+</code></pre></div></div>
+
+<h1 id="create-a-new-jekyll-site">Create a new Jekyll site</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jekyll new my-awesome-site
+<span class="nv">$ </span><span class="nb">cd </span>my-awesome-site
+</code></pre></div></div>
+
+<h1 id="build-the-site-and-make-it-available-on-a-local-server">Build the site and make it available on a local server</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>bundle <span class="nb">exec </span>jekyll serve
+</code></pre></div></div>
+
+<p>Now you can preview your site by browsing to <a href="http://localhost:4000">http://localhost:4000</a></p>
+
+<p>Looking for a CMS? See <a href="https://frontmatter.codes/">Front Matter CMS</a></p>]]></content><author><name></name></author><category term="quick-start" /><category term="ubuntu" /><category term="jekyll" /><category term="ruby" /><summary type="html"><![CDATA[What is Jekyll? Jekyll is a static site generator that allows you to build and manage websites using plain text files and templates. It takes your content written in Markdown, Textile, or HTML, and generates a complete website that can be hosted on any web server. Jekyll is popular among developers for its simplicity, speed, and flexibility. It is often used for creating blogs, documentation sites, and personal websites.]]></summary></entry><entry><title type="html">How to crack WPA wifi key?</title><link href="http://localhost:4000/2024/06/09/how-to-crack-wpa-wifi-key.html" rel="alternate" type="text/html" title="How to crack WPA wifi key?" /><published>2024-06-09T00:02:24+02:00</published><updated>2024-06-09T00:02:24+02:00</updated><id>http://localhost:4000/2024/06/09/how-to-crack-wpa-wifi-key</id><content type="html" xml:base="http://localhost:4000/2024/06/09/how-to-crack-wpa-wifi-key.html"><![CDATA[<h2 id="assumption">Assumption</h2>
+<p>You know the wifi key that we want to crack, because your are the owner of this wifi off course. Let take an example with <code class="language-plaintext highlighter-rouge">12345678</code>. So we will try to crack it.</p>
+
+<h2 id="with-wifite">With wifite</h2>
+
+<h3 id="install">Install</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt upgrade <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> wifite
+</code></pre></div></div>
+
+<h3 id="launch">Launch</h3>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>wifite <span class="nt">--wpa</span>
+</code></pre></div></div>
+
+<p>Then follow instructions on software.</p>
+
+<h2 id="with-aircrack-ng">With aircrack-ng</h2>
+
+<h3 id="install-1">Install</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt upgrade <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> aircrack-ng
+</code></pre></div></div>
+
+<h3 id="steps">Steps</h3>
+
+<p>Get your wifi interface name (it should begin by ‘wl’)</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>ifconfig
+</code></pre></div></div>
+<p>or this if your are lazzy :</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ifconfig | <span class="nb">grep</span> <span class="nt">-e</span> <span class="s1">'^wl'</span> | <span class="nb">awk</span> <span class="nt">-F</span> <span class="s1">':'</span> <span class="s1">'{print $1}'</span>
+</code></pre></div></div>
+
+<p>Switch the wifi interface in Monitor mode</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>airmon-ng start wlp4s0
+</code></pre></div></div>
+
+<p>Set the monitor wifi interface in env</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">export </span><span class="nv">INT</span><span class="o">=</span>wlp4s0mon
+</code></pre></div></div>
+
+<p>Dump networks</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>airodump-ng <span class="nv">$INT</span>
+</code></pre></div></div>
+
+<p>then crtl+c and choose your BSSID
+set the BSSID in your env</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">export </span><span class="nv">BSSID</span><span class="o">={</span>see_the_BSSID_column<span class="o">}</span>
+</code></pre></div></div>
+<p>set the channel (see the CH column) in your env</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">export </span><span class="nv">CH</span><span class="o">={</span>see_the_CH_column<span class="o">}</span>
+</code></pre></div></div>
+
+<p>Capture a handshake</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>airodump-ng <span class="nt">-c</span> <span class="nv">$CH</span> <span class="nt">--bssid</span> <span class="nv">$BSSID</span> <span class="nt">-w</span> capture <span class="nv">$INT</span>
+</code></pre></div></div>
+
+<p>So you can wait for a handshake… or run a deauth attack. 
+Open a new terminal</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>aireplay-ng <span class="nt">--deauth</span> 100 <span class="nt">-a</span> <span class="o">{</span>see_BSSID_column<span class="o">}</span> <span class="nt">-c</span> <span class="o">{</span>see_STATION_column<span class="o">}</span> wlp4s0mon <span class="nt">--ignore-negative-one</span>
+</code></pre></div></div>
+<p>When the mention <code class="language-plaintext highlighter-rouge">WPA handshake: xx:xx:xx:xx:xx:xx</code> is displayed in the first terminal, 
+crtl+c on both terminal windows
+then exist from the monitor mode</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>airmon-ng stop wlp4s0mon
+</code></pre></div></div>
+
+<h2 id="found-the-wifi-key">Found the wifi key</h2>
+
+<h3 id="by-using-dictionnaires">by using dictionnaires</h3>
+
+<p>Do you know rockyou.txt? See <a href="https://github.com/zacheller/rockyou">here</a>. We assume that <code class="language-plaintext highlighter-rouge">12345678</code> is contained in rockyou.txt (,it is!). So we will use it to find the wifi key from the capture file.</p>
+
+<p>Let’s go.</p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>aircrack-ng <span class="nt">-w</span> rockyou.txt capture-01.cap
+</code></pre></div></div>
+<blockquote>
+  <p>It can take a few moments :)</p>
+</blockquote>
+
+<h3 id="by-bruteforcing-ho-yeah">by bruteforcing (ho yeah!)</h3>
+
+<p>Ready to burn your CPU? We assume that the wifi key to find is <code class="language-plaintext highlighter-rouge">12345678</code>. With a lengh of 8 and only digits, any computer is able to find it in few hours, about 3 hours for my old laptop. So we will use it to find the wifi key from the capture file.</p>
+
+<p>We will use hcxtools, hashcat for that.</p>
+
+<h4 id="install-hcxtools">install hcxtools</h4>
+
+<p>hcxtools is a set of tools that are used for capturing and converting WLAN traffic. It provides various functionalities for working with captured packets, such as converting them to hashcat format for password cracking.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt upgrade <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> hcxtools
+</code></pre></div></div>
+
+<h4 id="convert-the-capture-file-to-hashcat-format">Convert the capture file to hashcat format</h4>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>hcxpcapngtool capture-01.cap <span class="nt">-o</span> capture-01.hccapx
+</code></pre></div></div>
+
+<h4 id="install-hashcat">install hashcat</h4>
+
+<p>Hashcat is a powerful open-source password recovery tool. It is designed to crack hashed passwords using various attack modes, such as brute-force, dictionary, and rule-based attacks.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt update <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt upgrade <span class="nt">-y</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>apt <span class="nb">install</span> <span class="nt">-y</span> hashcat
+</code></pre></div></div>
+
+<h4 id="bruteforce">bruteforce</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>hashcat <span class="nt">-a</span> 3 <span class="nt">-m</span> 22000 capture-04.hash ?d?d?d?d?d?d?d?d
+</code></pre></div></div>
+<blockquote>
+  <p>3h/4h later the wifi key has been found. (arround 5100H/s)</p>
+</blockquote>]]></content><author><name></name></author><category term="fun" /><category term="wifi" /><category term="security" /><category term="cracking" /><category term="wap" /><category term="wpa" /><category term="wifite" /><category term="aircrack-ng" /><category term="hcxtools" /><category term="hashcat" /><summary type="html"><![CDATA[Assumption You know the wifi key that we want to crack, because your are the owner of this wifi off course. Let take an example with 12345678. So we will try to crack it.]]></summary></entry><entry><title type="html">Install Mullvad browser on Ubuntu</title><link href="http://localhost:4000/quick-start/2024/03/17/install-mulvad-browser-on-ubuntu.html" rel="alternate" type="text/html" title="Install Mullvad browser on Ubuntu" /><published>2024-03-17T19:55:10+01:00</published><updated>2024-03-17T19:55:10+01:00</updated><id>http://localhost:4000/quick-start/2024/03/17/install-mulvad-browser-on-ubuntu</id><content type="html" xml:base="http://localhost:4000/quick-start/2024/03/17/install-mulvad-browser-on-ubuntu.html"><![CDATA[<h1 id="what-is-mullvad-browser">What is mullvad browser?</h1>
+<p><a href="https://mullvad.net/en/download/browser/linux">Mullvad Browser</a> is a privacy-focused web browser that is designed to enhance your online security and anonymity. It is based on the open-source <a href="https://www.mozilla.org/en-US/firefox/enterprise/">Mozilla Firefox</a>. It is available for various operating systems, including <a href="https://ubuntu.com/download">Ubuntu</a>.</p>
+
+<h1 id="download-the-mullvad-signing-key">Download the Mullvad signing key</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>curl <span class="nt">-fsSLo</span> /usr/share/keyrings/mullvad-keyring.asc https://repository.mullvad.net/deb/mullvad-keyring.asc
+</code></pre></div></div>
+
+<h1 id="add-the-mullvad-repository-server-to-apt">Add the Mullvad repository server to apt</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">echo</span> <span class="s2">"deb [signed-by=/usr/share/keyrings/mullvad-keyring.asc arch=</span><span class="si">$(</span> dpkg <span class="nt">--print-architecture</span> <span class="si">)</span><span class="s2">] https://repository.mullvad.net/deb/stable </span><span class="si">$(</span>lsb_release <span class="nt">-cs</span><span class="si">)</span><span class="s2"> main"</span> | <span class="nb">sudo tee</span> /etc/apt/sources.list.d/mullvad.list
+</code></pre></div></div>
+
+<h1 id="install-the-package">Install the package</h1>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">sudo </span>apt update
+<span class="nv">$ </span>udo apt <span class="nb">install </span>mullvad-browser
+</code></pre></div></div>]]></content><author><name></name></author><category term="quick-start" /><category term="ubuntu" /><category term="mullvad" /><category term="browser" /><category term="privacy" /><category term="firefox" /><category term="mozilla" /><summary type="html"><![CDATA[What is mullvad browser? Mullvad Browser is a privacy-focused web browser that is designed to enhance your online security and anonymity. It is based on the open-source Mozilla Firefox. It is available for various operating systems, including Ubuntu.]]></summary></entry><entry><title type="html">Hello world!</title><link href="http://localhost:4000/2001/06/08/hello.html" rel="alternate" type="text/html" title="Hello world!" /><published>2001-06-08T23:22:24+02:00</published><updated>2001-06-08T23:22:24+02:00</updated><id>http://localhost:4000/2001/06/08/hello</id><content type="html" xml:base="http://localhost:4000/2001/06/08/hello.html"><![CDATA[<p><a href="https://web.archive.org/web/20011001000000*/vivanno.com">the start of my life here</a></p>]]></content><author><name></name></author><category term="my life" /><summary type="html"><![CDATA[the start of my life here]]></summary></entry></feed>
