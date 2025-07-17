@@ -1,6 +1,6 @@
----
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+#hello world, 
+[look at this, it's about me](/about/)
 
-layout: home
----
+## iOS App built with ♥️
+
+- [vona, the indendant web browser a made for privacy](/vona)
