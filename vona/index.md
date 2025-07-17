@@ -35,12 +35,6 @@ Support multilingue avec traductions complètes :
 
 ## Architecture Technique
 
-### Technologies Utilisées
-- **React Native** : Framework de développement mobile multiplateforme
-- **React Native WebView** : Composant WebView pour la fonctionnalité de navigation
-- **React Native Encrypted Storage** : Stockage chiffré pour les paramètres utilisateur
-- **TypeScript** : Typage statique pour une meilleure robustesse du code
-
 ### Sécurité des Données
 - Tous les paramètres utilisateur sont stockés de manière chiffrée localement
 - Aucune donnée n'est transmise à des serveurs externes
@@ -59,7 +53,6 @@ Vona s'adresse aux utilisateurs soucieux de leur vie privée qui recherchent :
 ### Avantages Concurrentiels
 - **Confidentialité par conception** : Contrairement aux navigateurs traditionnels, Vona ne conserve aucune donnée de navigation
 - **Simplicité d'utilisation** : Interface minimaliste sans fonctionnalités complexes inutiles
-- **Transparence totale** : Code source organisé et documenté, architecture claire
 - **Performance optimisée** : Pas de fonctionnalités lourdes, focus sur la rapidité de navigation
 
 ### Innovation
@@ -73,18 +66,3 @@ Vona s'adresse aux utilisateurs soucieux de leur vie privée qui recherchent :
 - **RGPD** : Aucune collecte de données personnelles
 - **CCPA** : Pas de vente ou partage de données utilisateur
 - **Réglementations d'exportation** : Utilisation uniquement d'algorithmes de chiffrement standard (TLS/SSL, chiffrement système iOS)
-
-## Support et Documentation
-
-- Documentation technique complète dans CLAUDE.md
-- Code source bien structuré et commenté
-- Architecture modulaire facilitant la maintenance
-- Tests automatisés avec Jest
-
-## Engagement Qualité
-
-Vona respecte les standards de développement iOS :
-- Code TypeScript avec typage strict
-- Tests unitaires et d'intégration
-- Respect des guidelines d'interface Apple
-- Performance optimisée pour tous les appareils iOS supportés
