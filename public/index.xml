@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Accueil on Vivanno</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Accueil on Vivanno</description>
+    <generator>Hugo -- 0.148.1</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Vona - Politique de Confidentialité</title>
+      <link>http://localhost:1313/vona/privacy/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/vona/privacy/</guid>
+      <description>&lt;h2 id=&#34;engagement-de-confidentialité&#34;&gt;Engagement de Confidentialité&lt;/h2&gt;
+&lt;p&gt;Vona s&amp;rsquo;engage à protéger intégralement la vie privée de ses utilisateurs. Cette politique de confidentialité détaille nos pratiques en matière de collecte, utilisation et protection des données.&lt;/p&gt;
+&lt;h2 id=&#34;principe-fondamental--zéro-collecte-de-données&#34;&gt;Principe Fondamental : Zéro Collecte de Données&lt;/h2&gt;
+&lt;h3 id=&#34;aucune-collecte-de-données-personnelles&#34;&gt;Aucune Collecte de Données Personnelles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aucune donnée de navigation&lt;/strong&gt; n&amp;rsquo;est collectée, stockée ou transmise&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aucun historique de navigation&lt;/strong&gt; n&amp;rsquo;est conservé de manière permanente&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aucune donnée de localisation&lt;/strong&gt; n&amp;rsquo;est collectée&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aucun identifiant unique&lt;/strong&gt; n&amp;rsquo;est généré ou stocké&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aucune donnée analytique&lt;/strong&gt; n&amp;rsquo;est collectée&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;aucune-transmission-de-données&#34;&gt;Aucune Transmission de Données&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Aucune connexion à des serveurs externes&lt;/strong&gt; pour le pistage ou l&amp;rsquo;analyse&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aucune télémétrie&lt;/strong&gt; n&amp;rsquo;est envoyée au développeur ou à des tiers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aucun partage de données&lt;/strong&gt; avec des partenaires commerciaux&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aucune intégration&lt;/strong&gt; avec des services de publicité ou d&amp;rsquo;analyse&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;fonctionnement-technique-de-la-confidentialité&#34;&gt;Fonctionnement Technique de la Confidentialité&lt;/h2&gt;
+&lt;h3 id=&#34;effacement-automatique-des-données&#34;&gt;Effacement Automatique des Données&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Cookies&lt;/strong&gt; : Supprimés automatiquement après chaque navigation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;LocalStorage et SessionStorage&lt;/strong&gt; : Vidés automatiquement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cache de navigation&lt;/strong&gt; : Nettoyé de manière continue&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Historique&lt;/strong&gt; : Conservé uniquement en mémoire, supprimé à la fermeture de l&amp;rsquo;app&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;stockage-local-sécurisé&#34;&gt;Stockage Local Sécurisé&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Paramètres utilisateur uniquement&lt;/strong&gt; : Seuls les paramètres de configuration sont stockés&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Chiffrement local&lt;/strong&gt; : Utilisation de &lt;code&gt;react-native-encrypted-storage&lt;/code&gt; pour un stockage chiffré&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Aucune identification&lt;/strong&gt; : Les paramètres ne contiennent aucune information identificatrice&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Contrôle utilisateur&lt;/strong&gt; : L&amp;rsquo;utilisateur peut réinitialiser tous les paramètres à tout moment&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;protection-contre-le-pistage&#34;&gt;Protection contre le Pistage&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rotation des agents utilisateur&lt;/strong&gt; : 22 agents utilisateur iOS différents rotent automatiquement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Blocage des popups de consentement&lt;/strong&gt; : Protection contre les mécanismes de pistage&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mode furtif permanent&lt;/strong&gt; : Aucune trace de navigation n&amp;rsquo;est laissée&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;données-stockées-localement&#34;&gt;Données Stockées Localement&lt;/h2&gt;
+&lt;h3 id=&#34;paramètres-de-configuration-chiffrés&#34;&gt;Paramètres de Configuration (Chiffrés)&lt;/h3&gt;
+&lt;p&gt;Les seules données stockées localement sont :&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
